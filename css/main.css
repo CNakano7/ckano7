@@ -46,10 +46,8 @@ ul.posts li {
 
 /*Styles the body of the webpage to have a linear-gradient*/
 body {
-  #grad1 {
-  height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, red, yellow); /* Standard syntax (must be last) */
+  height: 400px;
+  background: linear-gradient(to right, #000000 13%, #133951 73%)
 }
 
 div {
