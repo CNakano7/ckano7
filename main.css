@@ -53,3 +53,12 @@ div {
   resize: both;
   overflow: auto;
 }
+
+/* Styles the Header/Logo Title with a lightblue background, white font, with a font-size of 10px */
+.header {
+  padding: 0px;
+  text-align: center;
+  background: lightblue;
+  color: white;
+  font-size: 10px;
+}
