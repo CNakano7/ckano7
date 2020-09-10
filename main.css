@@ -47,7 +47,8 @@ ul.posts li {
 /*Styles the body of the webpage to have a linear-gradient*/
 body {
   height: 200px;
-  background: linear-gradient(to bottom right, #020024 0%, #10108a 40%, #6f38e6 100%);
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, black, indigo);
 }
 
 div {
