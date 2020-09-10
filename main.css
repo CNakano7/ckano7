@@ -48,7 +48,7 @@ ul.posts li {
 body {
 height: 200px;
   background-color: black; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, black, white);
+  background-image: linear-gradient(to bottom right, #020024 0%, #10108a 40%, #6f38e6 100%);
 }
 
 div {
