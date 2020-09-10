@@ -44,10 +44,11 @@ ul.posts li {
     list-style: none;
 }
 
-/*Styles the body of the webpage to have a linear-gradient of the colors summer sky and carnation pink in the right direction*/
+/*Styles the body of the webpage to have a linear-gradient*/
 body {
-  height: 400px;
-  background: linear-gradient(to right, #33ccff 13%, #ff99cc 73%)
+height: 200px;
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, black, white);
 }
 
 div {
